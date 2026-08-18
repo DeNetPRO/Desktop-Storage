@@ -1,0 +1,26 @@
+# DeNet Storage Desktop
+
+> Client-side encrypted, private cloud storage application for Windows, macOS, and Linux.
+
+## Overview
+DeNet Storage Desktop is a cross-platform desktop application for decentralized, zero-knowledge cloud storage powered by the DeNet protocol (operating since 2017). The network spans 7.5M+ participants with 2,000+ independent storage nodes (Datakeepers) across 194 countries.
+
+## Architecture & Storage Model
+1. Splitting into Parts: Files are sliced locally into 1 MB parts.
+2. Client-Side Encryption: Each part is encrypted with AES-256 before transmission. Only the user holds the keys.
+3. Reed-Solomon Erasure Coding: Encrypted parts are coded into redundant 1 MB shards using Reed-Solomon parity.
+4. Decentralized Distribution: Shards are uploaded across independent Datakeeper nodes. No single node holds a full file or decryption keys.
+5. Autoreplication: The network automatically detects unreachable nodes and replicates missing shards onto active nodes.
+6. Billing: Pay-as-you-go balance model based on exact space stored over time with a minimum baseline of 100 GB (no mandatory monthly subscription tiers).
+
+## Supported Platforms
+- Windows 10 / 11 (64-bit x86_64) - installer package: .exe
+- macOS 11+ (Apple Silicon & Intel) - installer package: .dmg
+- Linux (Ubuntu, Debian, Fedora, Arch) - packages: .AppImage, .deb, .rpm
+
+## Key Links
+- Official Website: https://denet.pro
+- Latest Desktop Releases: https://github.com/DeNetPRO/Storage-Desktop/releases/latest
+- Mobile Companion App: https://mobile.denet.app
+- Datakeeper Node Licenses: https://nodesale.denet.app
+- Issue Tracker: https://github.com/DeNetPRO/Storage-Desktop/issues

@@ -6,8 +6,8 @@
 
 Client-side encrypted, private cloud storage for Windows, macOS, and Linux.
 
-[![Release](https://img.shields.io/github/v/release/DeNetPRO/Storage-Desktop?label=latest%20release&color=2ea44f)](https://github.com/DeNetPRO/Storage-Desktop/releases/latest)
-[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/DeNetPRO/Storage-Desktop/releases/latest)
+[![Release](https://img.shields.io/github/v/release/DeNetPRO/Desktop-Storage?label=latest%20release&color=2ea44f)](https://github.com/DeNetPRO/Desktop-Storage/releases/latest)
+[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/DeNetPRO/Desktop-Storage/releases/latest)
 [![Network](https://img.shields.io/badge/network-7.5M%2B%20participants%20%7C%20194%20countries-blue)](https://denet.pro)
 
 [Download](#get-the-app) • [Features](#key-features) • [How Data is Stored](#how-data-is-stored) • [FAQ](#frequently-asked-questions) • [Mobile App](https://mobile.denet.app) • [Website](https://denet.pro)
@@ -41,13 +41,13 @@ Direct installers for the latest official desktop release:
 
 | Platform | Architecture | Package |
 | :--- | :--- | :--- |
-| **Windows** | 64-bit (x86_64) | [Download .exe installer](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
-| **macOS** | Apple Silicon (ARM64) | [Download ARM64 .dmg](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
-| **macOS** | Intel (x86_64) | [Download Intel .dmg](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
-| **Linux** | x86_64, ARM64 | [.deb](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) • [.rpm](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
+| **Windows** | 64-bit (x86_64) | [Download .exe installer](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
+| **macOS** | Apple Silicon (ARM64) | [Download ARM64 .dmg](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
+| **macOS** | Intel (x86_64) | [Download Intel .dmg](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
+| **Linux** | x86_64, ARM64 | [.deb](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) • [.rpm](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
 
 ### Windows
-1. Download the `DeNet-Storage-Setup.exe` installer from [Releases](https://github.com/DeNetPRO/Storage-Desktop/releases/latest).
+1. Download the `DeNet-Storage-Setup.exe` installer from [Releases](https://github.com/DeNetPRO/Desktop-Storage/releases/latest).
 2. Run the installer and follow the setup prompts.
 3. Open **DeNet Storage** from the Start Menu.
 
@@ -163,5 +163,5 @@ If you want to provide disk space and earn rewards as a Datakeeper, visit the [D
 
 ## Support
 
-- **Issue Tracker:** For bug reports and feature requests, please open a [GitHub Issue](https://github.com/DeNetPRO/Storage-Desktop/issues).
+- **Issue Tracker:** For bug reports and feature requests, please open a [GitHub Issue](https://github.com/DeNetPRO/Desktop-Storage/issues).
 - **Website & Updates:** Visit [denet.pro](https://denet.pro) to learn more about the network.

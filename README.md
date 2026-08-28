@@ -6,8 +6,8 @@
 
 Client-side encrypted, private cloud storage for Windows, macOS, and Linux.
 
-[![Release](https://img.shields.io/github/v/release/DeNetPRO/Desktop-Storage?label=latest%20release&color=2ea44f)](https://github.com/DeNetPRO/Desktop-Storage/releases/latest)
-[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/DeNetPRO/Desktop-Storage/releases/latest)
+[![Release](https://img.shields.io/github/v/release/DeNetPRO/Storage-Desktop?label=latest%20release&color=2ea44f)](https://github.com/DeNetPRO/Storage-Desktop/releases/latest)
+[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/DeNetPRO/Storage-Desktop/releases/latest)
 [![Network](https://img.shields.io/badge/network-7.5M%2B%20participants%20%7C%20194%20countries-blue)](https://denet.pro)
 
 [Download](#get-the-app) • [Features](#key-features) • [How Data is Stored](#how-data-is-stored) • [FAQ](#frequently-asked-questions) • [Mobile App](https://mobile.denet.app) • [Website](https://denet.pro)
@@ -41,19 +41,21 @@ Direct installers for the latest official desktop release:
 
 | Platform | Architecture | Package |
 | :--- | :--- | :--- |
-| **Windows** | 64-bit (x86_64) | [Download .exe installer](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
-| **macOS** | Apple Silicon & Intel | [Download .dmg](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
-| **Linux** | x86_64, ARM64 | [.AppImage](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) • [.deb](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) • [.rpm](https://github.com/DeNetPRO/Desktop-Storage/releases/latest) |
+| **Windows** | 64-bit (x86_64) | [Download .exe installer](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
+| **macOS** | Apple Silicon (ARM64) | [Download ARM64 .dmg](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
+| **macOS** | Intel (x86_64) | [Download Intel .dmg](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
+| **Linux** | x86_64, ARM64 | [.deb](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) • [.rpm](https://github.com/DeNetPRO/Storage-Desktop/releases/latest) |
 
 ### Windows
-1. Download the `DeNet-Storage-Setup.exe` installer from [Releases](https://github.com/DeNetPRO/Desktop-Storage/releases/latest).
+1. Download the `DeNet-Storage-Setup.exe` installer from [Releases](https://github.com/DeNetPRO/Storage-Desktop/releases/latest).
 2. Run the installer and follow the setup prompts.
 3. Open **DeNet Storage** from the Start Menu.
 
 ### macOS
-1. Download `DeNet-Storage.dmg` (supports both Apple Silicon M-series and Intel).
-2. Open the `.dmg` file and drag **DeNet Storage** into your **Applications** folder.
-3. Open **DeNet Storage** from Launchpad or Spotlight.
+1. Apple Silicon (M-series): download the `DeNet Storage_<version>_aarch64.dmg` release asset.
+2. Intel: download the `DeNet Storage_<version>_x64.dmg` release asset.
+3. Open the `.dmg` file and drag **DeNet Storage** into your **Applications** folder.
+4. Open **DeNet Storage** from Launchpad or Spotlight.
 
 ### Linux
 
@@ -63,10 +65,6 @@ sudo dpkg -i "DeNet Storage_"*.deb
 
 # Fedora / RHEL (.rpm)
 sudo rpm -i "DeNet Storage-"*.rpm
-
-# Standalone AppImage
-chmod +x "DeNet Storage_"*.AppImage
-./"DeNet Storage_"*.AppImage
 ```
 
 ---
@@ -123,7 +121,8 @@ When downloading, the desktop client queries the network, pulls the fastest avai
 | Operating System | Minimum Version | Architecture |
 | :--- | :--- | :--- |
 | **Windows** | Windows 10 / 11 | 64-bit (x86_64) |
-| **macOS** | macOS 11 (Big Sur) or newer | Apple Silicon & Intel |
+| **macOS** | macOS 11 (Big Sur) or newer | Apple Silicon (ARM64) |
+| **macOS** | macOS 11 (Big Sur) or newer | Intel (x86_64) |
 | **Linux** | Ubuntu 20.04+, Debian 11+, Fedora 36+, Arch | x86_64, ARM64 |
 | **Hardware** | 512 MB RAM, ~200 MB disk space | Any modern processor |
 
@@ -164,5 +163,5 @@ If you want to provide disk space and earn rewards as a Datakeeper, visit the [D
 
 ## Support
 
-- **Issue Tracker:** For bug reports and feature requests, please open a [GitHub Issue](https://github.com/DeNetPRO/Desktop-Storage/issues).
+- **Issue Tracker:** For bug reports and feature requests, please open a [GitHub Issue](https://github.com/DeNetPRO/Storage-Desktop/issues).
 - **Website & Updates:** Visit [denet.pro](https://denet.pro) to learn more about the network.
